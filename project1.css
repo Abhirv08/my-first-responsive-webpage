@@ -1,0 +1,202 @@
+*{
+    border: none;
+    margin: none;
+    padding: none;
+    background-color: rgb(214, 231, 238);
+    font-family: 'Karla', sans-serif;
+}
+@media(min-width:375px) and (max-width:1440px){
+ .mainbox{
+     display: flex;
+     width: 600px;
+     height: 440px;
+     border: 2px solid rgb(214, 231, 238);
+     flex-flow: row wrap;
+     margin: auto;
+     margin-top: 60px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 10px 0px rgb(140, 194, 211);
+    }
+ #box1{
+     width: 600px;
+     height: 160px;
+     padding:20px 30px;
+     background-color: white;
+    
+    }
+ #box2{
+     height: 200px;
+     width:270px;
+     padding: 20px 30px;
+     padding-right: 0px;
+     background-color: rgb(60, 167, 167);
+    }
+ #box3{
+     padding: 20px 30px;
+     height: 200px;
+     width: 240px;
+     background-color: rgb(78, 190, 190);
+    }
+}
+
+ #box1 p{
+     background-color: white;
+    }
+ #request{
+     font-size: 23px;
+     color: rgb(11, 188, 219);
+     font-weight: bold;
+    }
+ #trial{
+     font-size: 16px;
+     font-weight: bold;
+     color: yellowgreen;
+    }
+ .same{
+     font-size: 14px;
+     opacity: 30%;
+     font-weight: bold;
+    }
+ #info{
+     line-height: 14px;
+    }
+ #line{
+     line-height: 4px;
+    }
+ #box2 p{
+     background-color: rgb(60, 167, 167);
+     color: white;
+    }
+ #monthly{
+     font-size: 16px;
+     font-weight: bold;
+    }
+ #money{
+     font-size: 30px;
+     line-height: 15px;
+    }
+ #per{
+     font-size: 16px;
+     opacity: 60%;
+     background-color:rgb(60, 167, 167) ;
+    }
+ #access{
+     font-size: 14px;
+     line-height: 0px;
+     opacity: 80%;
+    }
+ #sign{   
+     border: 5px solid yellowgreen;
+     border-radius: 5px;
+     color: white;
+     padding: 10px 80px;
+     background-color: yellowgreen;
+     text-decoration: none;
+     align-content: center;
+     line-height: 50px;
+    }
+ #box3 p{
+     background-color: rgb(78, 190, 190);
+     color: white;
+    }
+ #why{
+     font-size: 16px;
+     font-weight: bold;
+    }
+ .us{
+     opacity: 60%;
+     font-size: 12px;
+     line-height: 10px;
+    }
+@media(max-width:375px)
+{
+    .mainbox{
+        display: flex;
+        width: 245px;
+        border: 2px solid rgb(214, 231, 238);
+        border-radius: 5px;
+        flex-flow: column wrap;
+        margin: auto;
+        margin-top: 60px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 0px rgb(140, 194, 211);
+        
+    }
+    #box1{
+        width: 185px;
+        padding:20px 30px;
+        background-color: white;
+    }
+    #box2{
+        width:185px;
+        padding: 20px 30px;
+        background-color: rgb(60, 167, 167);
+    }
+    #box3{
+        padding: 20px 30px;
+        width: 185px;
+        background-color: rgb(78, 190, 190);
+    }
+    #request{
+        font-size: 16px;
+        color: rgb(11, 188, 219);
+        font-weight: bold;
+    }
+    #trial{
+        font-size: 14px;
+        font-weight: bold;
+        color: yellowgreen;
+    }
+    .same{
+        font-size: 10px;
+        opacity: 30%;
+        font-weight: bold;
+    }
+    #info{
+        /* display: inline-block; */
+        line-height: 14px;
+    }
+    #line{
+        display: inline-block;
+        line-height: 14px;
+    }
+    #monthly{
+        font-size: 14px;
+        font-weight: bold;
+       }
+    #money{
+        font-size: 19px;
+        line-height: 15px;
+        font-weight: 0px;
+    }
+    #per{
+        font-size: 12px;
+        opacity: 60%;
+        background-color:rgb(60, 167, 167) ;
+       }
+    #access{
+        font-size: 12px;
+        line-height: normal;
+        opacity: 80%;
+       }
+    #sign{   
+        font-size: 14px;
+        border: 5px solid yellowgreen;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 60px;
+        background-color: yellowgreen;
+        text-decoration: none;
+        align-content: center;
+        line-height: 50px;
+       }
+    #why{
+        font-size: 14px;
+        font-weight: bold;
+       }
+       .us{
+        opacity: 60%;
+        font-size: 10px;
+        line-height: 5px;
+       }   
+}
